@@ -18,25 +18,27 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
+  background: $white;
+  font: 14px/1.5 $muli;
   color: $darkGray;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 940px;
   padding: 0 10px;
   width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: $montserrat;
   color: $darkerGray;
-  font-weight: bold;
-
-  line-height: 1.7;
-  margin: 1em 0 15px;
+  font-weight: 600;
+  text-rendering: optimizeLegibility;
+  line-height: 1.6;
+  margin: 1.3em 0 0.8em;
   padding: 0;
 
   @include mobile {
@@ -45,35 +47,41 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 26px;
   a {
     color: inherit;
   }
 }
 
+h1.title {
+  color: $blue;
+}
+
 h2 {
-  font-size: 24px;
+  font-size: 22px;
+  >strong{
+    color: #008080;
+  }
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 h4 {
-  font-size: 18px;
-  color: $gray;
+  font-size: 15px;
 }
 
 p {
-  margin: 15px 0;
+  margin: 10px 0 15px;
 }
 
 a {
   color: $blue;
   text-decoration: none;
-	cursor: pointer;
+  cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $darkblue;
   }
 }
 
@@ -110,6 +118,80 @@ img {
   max-width: 100%;
 }
 
+hr {
+  border: none;
+  border-bottom: 1px solid $blue;
+}
+
+div.box {
+  position: relative;
+  margin: 0;
+  p {
+    padding: 15px;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: $darkGray;
+  }
+
+  p:first-child:after {
+    position: absolute;
+    top: 4px;
+    color: #fff;
+    left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    content: 'Info'
+  }
+
+  > p {
+    border-top: 30px solid #f0b37e;
+    background: #fff2db
+  }
+}
+
+div.info {
+  p:first-child:after {
+    content: 'Info'
+  }
+
+  > p {
+    border-top: 30px solid #f0b37e;
+    background: #fff2db
+  }
+}
+div.warning {
+  p:first-child:after {
+    content: 'Warning'
+  }
+
+  > p {
+    border-top: 30px solid rgba(217, 83, 79, .8);
+    background: #fae2e2
+  }
+}
+div.note {
+  p:first-child:after {
+    content: 'Note'
+  }
+
+  > p {
+    border-top: 30px solid #6ab0de;
+    background: #e7f2fa
+  }
+}
+div.tip {
+  p:first-child:after {
+    content: 'Tip'
+  }
+
+  > p {
+    border-top: 30px solid rgba(92, 184, 92, .8);
+    background: #e6f9e6
+  }
+}
+
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
@@ -118,6 +200,7 @@ img {
 .date {
   font-style: italic;
   color: $gray;
+  margin-bottom: 25px;
 }
 
 // Specify the color of the selection
@@ -125,6 +208,7 @@ img {
   color: $black;
   background: $lightGray;
 }
+
 ::selection {
   color: $black;
   background: $lightGray;
@@ -134,12 +218,12 @@ img {
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
 .clearfix:after {
-    content: " ";
-    display: table;
+  content: " ";
+  display: table;
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 /*********************/
@@ -151,7 +235,7 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .masthead {
@@ -176,7 +260,7 @@ img {
   }
 
   img {
-    border-radius: 5px;
+    border-radius: 35px;
   }
 }
 
@@ -195,15 +279,15 @@ img {
   color: $darkGray;
   cursor: pointer;
   font-family: $helveticaNeue;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 28px;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
 }
 
 .site-description {
-  margin: -5px 0 0 0;
+  margin: 0;
   color: $gray;
-  font-size: 16px;
+  font-size: 14px;
 
   @include mobile {
     margin: 3px 0;
@@ -251,13 +335,22 @@ nav {
   border-bottom: none;
 }
 
+.posts .pagination {
+  text-align: right;
+  margin: 10px 0;
+  span, a {
+    font-size: 16px;
+    margin-left: 15px;
+  }
+}
+
 .post {
   blockquote {
-    margin: 1.8em .8em;
-    border-left: 2px solid $gray;
+    margin: 1.3em .8em;
+    border-left: 2px solid $blue;
     padding: 0.1em 1em;
     color: $gray;
-    font-size: 22px;
+    font-size: 18px;
     font-style: italic;
   }
 
@@ -268,6 +361,30 @@ nav {
   .read-more {
     text-transform: uppercase;
     font-size: 15px;
+  }
+
+  .url {
+    border-top: 1px solid $lightGray;
+    margin-top: 3em;
+  }
+
+  table.light {
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    color: #757575;
+    font-size: 0.857143rem;
+    line-height: 2;
+    margin: 0 0 1.71429rem;
+    width: 100%;
+  }
+  table.light caption {
+    font-size: 1.14286rem;
+    margin: 1.71429rem 0;
+  }
+  table.light td {
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding: 6px 10px 6px 10px;
   }
 }
 
@@ -281,6 +398,14 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+  a {
+    margin: 0 8px;
+  }
+  p.copyright {
+    margin: 10px auto;
+    width: 70%;
+    font-size: 12px;
+  }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

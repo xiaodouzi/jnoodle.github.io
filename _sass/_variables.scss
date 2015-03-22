@@ -4,7 +4,17 @@
 //
 
 // Colors
-$blue: #4183C4;
+//$blue: #4183C4;
+$blue: #1694ca;
+$darkblue: #0e6185;
+$green: #5cb85c;
+$darkgreen: #4cae4c;
+$cyan: #5bc0de;
+$darkcyan: #46b8da;
+$orange: #f39531;
+$darkorange: #e78113;
+$red: #d9534f;
+$darkred: #d43f3a;
 
 // Grays
 $black: #000;
@@ -15,8 +25,10 @@ $lightGray: #eee;
 $white: #fff;
 
 // Font stacks
+$muli: "Muli","Helvetica","Tahoma","Geneva","Arial",sans-serif;
 $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$montserrat: "Montserrat","Helvetica","Tahoma","Geneva","Arial",sans-serif;
 $georgia: Georgia, serif;
 
 // Mobile breakpoints

@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+### 姜维 (WayneJ)
 
-### More Information
+现在某国有银行担任前端开发工作。
 
-A place to include any other types of information that you'd like to include about yourself.
+* 有任何问题欢迎[和我联系](mailto:feeldesignstudio@gmail.com)
 
-### Contact me
+* 我还能[提供服务](http://www.veizen.com)
 
-[email@domain.com](mailto:email@domain.com)
+* 有工作机会可以[介绍给我](mailto:feeldesignstudio@gmail.com)
+
