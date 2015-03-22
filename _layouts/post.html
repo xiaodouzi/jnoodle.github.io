@@ -13,13 +13,11 @@ layout: default
         {{ content }}
     </div>
 
-    {% include disqus.html %}
-
-    <div class="url">
-        <p><strong>本文地址 (Permalink): </strong></p>
-
+    <div class="box permalink">
         <p><a href="http://jnoodle.github.io{{ page.url }}">http://jnoodle.github.io{{ page.url }}</a><br>
             <a href="http://www.feeldesignstudio.com{{ page.url }}">http://www.feeldesignstudio.com{{ page.url }}</a>
         </p>
-    </div>
+    </div>`
+
+    {% include disqus.html %}
 </article>
