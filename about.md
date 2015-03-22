@@ -6,7 +6,7 @@ permalink: /about/
 
 ### 姜维 (WayneJ)
 
-现在某国有银行担任前端开发工作。
+现在某国有银行做前端开发工作。
 
 * 有任何问题欢迎[和我联系](mailto:feeldesignstudio@gmail.com)
 

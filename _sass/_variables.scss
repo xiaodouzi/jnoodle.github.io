@@ -24,6 +24,7 @@ $gray: #666;
 $gray2: #999;
 $lightGray: #eee;
 $lightGray2: #ddd;
+$light: #f6f6f6;
 $white: #fff;
 
 // Font stacks
@@ -33,6 +34,8 @@ $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $montserrat: "Montserrat","Helvetica","Tahoma","Geneva","Arial",sans-serif;
 $georgia: Georgia, serif;
 $arial: Arial, freesans, clean, sans-serif;
+$freight: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
+$commonFont: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;;
 
 // Mobile breakpoints
 @mixin mobile {
