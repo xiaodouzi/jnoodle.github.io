@@ -16,6 +16,8 @@ SharpKit的想法就是使web开发团队能够利用C#来提高JavaScript开发
 
 国内了解SharpKit的人不多，我简单介绍一下SharpKit的用法：
 
+<!--more-->
+
 ## 基本知识
 
 首先我们要下载SharpKit，地址是：<http://sharpkit.net/Download.aspx>

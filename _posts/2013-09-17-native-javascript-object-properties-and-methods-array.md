@@ -1,6 +1,7 @@
 ---
 layout: post
 title: JavaScript原生对象属性和方法详解——Array对象
+excerpt: <p>本文介绍Array对象的主要属性和方法 ...</p>
 ---
 
 ## **length**

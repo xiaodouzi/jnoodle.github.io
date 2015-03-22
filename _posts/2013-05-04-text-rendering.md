@@ -4,7 +4,10 @@ title: text-rendering 详解
 ---
 
 Text-rendering 属性是一个非标准属性，主要用来告诉渲染引擎（rendering engine）渲染文字的时候如何来优化，浏览器根据这个属性来权衡速度、易读性、几何精度等方面。
+
 暂时只有Gecko（Firefox）and WebKit（Safari 或 Chrome）支持这个属性。
+
+<!--more-->
 
 <div class="box info"><p>注：
 Gecko是套开放原始码的、以C++编写的网页排版引擎。目前为Mozilla家族网页浏览器以及Netscape 6以后版本浏览器所使用。

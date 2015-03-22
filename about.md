@@ -10,7 +10,9 @@ permalink: /about/
 
 * 有任何问题欢迎[和我联系](mailto:feeldesignstudio@gmail.com)
 
-* 我还能[提供服务](http://www.veizen.com)
+* 我还能[提供服务](http://www.veizen.com)，闲暇也可以[帮帮忙]({{ site.baseurl }}/case)
 
 * 有工作机会可以[介绍给我](mailto:feeldesignstudio@gmail.com)
+
+<br>
 

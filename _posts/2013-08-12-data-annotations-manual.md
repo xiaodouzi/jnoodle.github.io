@@ -3,7 +3,11 @@ layout: post
 title: 使用Data Annotations进行手动验证
 ---
 
-DataAnnotations在ASP.NET MVC中非常好用，但是其他时候，比如控制台程序，我们怎么来使用它呢，直接上代码，一个超简单的类：
+DataAnnotations在ASP.NET MVC中非常好用，但是其他时候，比如控制台程序，我们怎么来使用它呢。
+
+<!--more-->
+
+直接上代码，一个超简单的类：
 
 ```csharp
 public class Customer

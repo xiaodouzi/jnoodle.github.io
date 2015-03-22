@@ -7,6 +7,8 @@ title: IIS7多域名绑定同一物理目录，设置不同默认文档的解决
 
 其实IIS7不会比IIS6落后的，这个问题也很好解决，下面是解决方案：
 
+<!--more-->
+
 比如我们把www.a.com和www.b.com两个域名都指向c:\wwwroot文件夹
 想把www.a.com的默认文档设为目录aaa下的index.htm，www.b.com的默认文档设为目录bbb下的index.htm
 

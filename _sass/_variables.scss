@@ -21,7 +21,9 @@ $black: #000;
 $darkerGray: #222;
 $darkGray: #333;
 $gray: #666;
+$gray2: #999;
 $lightGray: #eee;
+$lightGray2: #ddd;
 $white: #fff;
 
 // Font stacks
@@ -30,6 +32,7 @@ $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $montserrat: "Montserrat","Helvetica","Tahoma","Geneva","Arial",sans-serif;
 $georgia: Georgia, serif;
+$arial: Arial, freesans, clean, sans-serif;
 
 // Mobile breakpoints
 @mixin mobile {

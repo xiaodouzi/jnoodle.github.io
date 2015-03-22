@@ -5,6 +5,8 @@ title: 在Windows下Mysql如何重置root用户密码
 
 网上的很多在Windows下重置root用户密码的方式无效，这里提供一种有效的方式：
 
+<!--more-->
+
 ### 第一步：停止MySQL服务：
 
 这可以通过访问服务窗口（管理工具——服务，或者运行——services.msc），停止MySQL服务。

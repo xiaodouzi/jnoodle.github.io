@@ -5,6 +5,8 @@ title: Web开发神器，最智能的Javascript IDE——WebStorm
 
 我的开发很大一部分是和Javascript打交道，很久以来，我一直在Spket、Aptana、Visual Studio、IntelliJ IDEA、notepad++、vim等选择中徘徊，因为发现他们都很好，但都缺少我想要的……直到我开始使用WebStorm。
 
+<!--more-->
+
 ## 什么是我对Javascript IDE选择的标准？
 
 1、快速智能的代码提示（全项目的）和补全

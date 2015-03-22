@@ -52,6 +52,8 @@ title: 日就月将之HTML5入门教程2
 
 可是`<header></header>` ，`<article></article>`等等这些都是什么呀，浏览器又怎么会支持这些写法呢？
 
+<!--more-->
+
 ## HTML元素列表
 
 ![HTML元素列表](/images/post/20110122html5.png)

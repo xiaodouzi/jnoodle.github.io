@@ -9,7 +9,7 @@ name: Feeldesign Studio
 description: Front-End, UI, Design, Product... blabla
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://avatars3.githubusercontent.com/u/1267447
+avatar: /images/head.jpeg
 
 #
 # Flags below are optional
@@ -57,6 +57,8 @@ permalink: /:year/:month/:title
 
 paginate: 10
 paginate_path: "/page/:num"
+
+excerpt_separator: <!--more-->
 
 # The release of Jekyll Now that you're using
 version: v1.1.0

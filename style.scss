@@ -55,6 +55,7 @@ h1 {
 
 h1.title {
   color: $blue;
+  margin-bottom: 5px;
 }
 
 h2 {
@@ -114,6 +115,10 @@ strong, b {
   font-weight: bold;
 }
 
+strong > em {
+  color: $darkred;
+}
+
 img {
   max-width: 100%;
 }
@@ -121,6 +126,16 @@ img {
 hr {
   border: none;
   border-bottom: 1px solid $blue;
+}
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+sub {
+  vertical-align: sub;
+  font-size: smaller;
 }
 
 div.box {
@@ -352,6 +367,9 @@ nav {
     color: $gray;
     font-size: 18px;
     font-style: italic;
+    cite {
+      font-weight: 600;
+    }
   }
 
   .comments {
@@ -359,8 +377,19 @@ nav {
   }
 
   .read-more {
+    display: inline-block;
+    margin-top: 10px;
+    font-family: sans-serif;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 12px;
+    background: $lightGray2;
+    padding: 5px 10px;
+    color: $gray;
+    border-radius: 5px;
+    &:hover, &:active{
+      color: $white;
+      background: $gray;
+    }
   }
 
   .url {
