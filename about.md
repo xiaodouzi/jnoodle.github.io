@@ -14,7 +14,7 @@ permalink: /about/
 
 * 偶尔也做些[课程](http://www.imooc.com/space/teacher/id/102093)
 
-* 有工作机会可以[介绍给我](mailto:feeldesignstudio@gmail.com)
+* 最近在找工作，有工作机会可以[介绍给我](mailto:feeldesignstudio@gmail.com)
 
 <br>
 
