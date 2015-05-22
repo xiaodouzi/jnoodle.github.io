@@ -27,6 +27,7 @@ jQuery/Zepto 都提供了很好的机制，让用户可以通过编写插件，�
   $.fn.openMyWindow();
   $.fn.closeMyWindow();
   ```
+  
 - 通过传入 `options` ，让插件可以定制，并提供默认的设置值
 - 尽量优化插件中冗余的代码
 - 不要试图提供繁多的配置项
