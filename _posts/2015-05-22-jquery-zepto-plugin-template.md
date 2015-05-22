@@ -10,12 +10,13 @@ jQuery/Zepto 都提供了很好的机制，让用户可以通过编写插件，�
 - [查看 jQuery 插件模板](https://github.com/jnoodle/plugin-templates/blob/master/jQuery-plugin-template.md)
 - [查看 Zepto 插件模板](https://github.com/jnoodle/plugin-templates/blob/master/Zepto-plugin-template.md)
 
-## jQuery / Zepto 插件开发注意事项
+关于模板的详细信息，请参考模板中的注释。
 
-- 用闭包保护全局变量不受污染
+## jQuery / Zepto 插件开发注意事项
 
 <!--more-->
 
+- 用闭包保护全局变量不受污染
 - 插件尽量支持链式语法，可以通过 `return this` 实现；
 - 插件尽量对外暴露尽可能少的调用入口，比如：
 
