@@ -10,6 +10,8 @@ permalink: /about/
 
 有任何问题欢迎[和我联系](mailto:feeldesignstudio@gmail.com)
 
+[非技术文章](http://xingdaochichi.com/)
+
 请关注我的微信公众号：
 
 ![@feeldesignstudio](/images/qrcode_344.jpg)
