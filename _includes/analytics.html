@@ -1,28 +1,30 @@
-{% if site.google_analytics %}
-	<!-- Google Analytics -->
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<!--{% if site.google_analytics %}-->
+	<!--&lt;!&ndash; Google Analytics &ndash;&gt;-->
+	<!--<script>-->
+		<!--(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){-->
+		<!--(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),-->
+		<!--m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)-->
+		<!--})(window,document,'script','//www.google-analytics.com/analytics.js','ga');-->
 
-		ga('create', '{{ site.google_analytics }}', 'auto');
-		ga('send', 'pageview', {
-		  'page': '{{ page.url }}',
-		  'title': '{{ page.title | replace: "'", "\\'" }}'
-		});
-	</script>
-	<!-- End Google Analytics -->
+		<!--ga('create', '{{ site.google_analytics }}', 'auto');-->
+		<!--ga('send', 'pageview', {-->
+		  <!--'page': '{{ page.url }}',-->
+		  <!--'title': '{{ page.title | replace: "'", "\\'" }}'-->
+		<!--});-->
+	<!--</script>-->
+	<!--&lt;!&ndash; End Google Analytics &ndash;&gt;-->
+<!--{% endif %}-->
     <script>
         //console
         if (typeof console !== "undefined" && typeof console.log !== "undefined") {
-            console.log("%c\n--------------------------------------\n  我正在找前端开发工作，有合适的帮我介绍哦~\n  mailto: feeldesignstudio@gmail.com\n--------------------------------------\n\n%c         还有，你看Console成习惯了，药别停！", "color: #f92672; font-size:16px;","color: #1694ca; font-size:12px;");
+            console.log("%c\n--------------------------------------\n" +
+            "  我的微信是 jnoodle\n" +
+            "  欢迎交朋友，请注明姓名和公司哦~\n" +
+            "--------------------------------------\n\n" +
+            "%c  多谢关注！", "color: #f92672; font-size:14px;","color: #1694ca; font-size:12px;");
         }
-    </script>
-{% endif %}
-    <script>
+
         //Baidu Tongji
-        var _$=["\x63\x6f\x6e\x73\x6f\x6c\x65","\x75\x6e\x64\x65\x66\x69\x6e\x65\x64","\x6c\x6f\x67","\x75\x6e\x64\x65\x66\x69\x6e\x65\x64","\x25\x63\n\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\n\x20\x20\u6211\u6b63\u5728\u627e\u524d\u7aef\u5f00\u53d1\u5de5\u4f5c\uff0c\u6709\u5408\u9002\u7684\u5e2e\u6211\u4ecb\u7ecd\u54e6\x7e\n\x20\x20\x6d\x61\x69\x6c\x74\x6f\x3a\x20\x66\x65\x65\x6c\x64\x65\x73\x69\x67\x6e\x73\x74\x75\x64\x69\x6f\x40\x67\x6d\x61\x69\x6c\x2e\x63\x6f\x6d\n\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\n\n\x25\x63\x20\x20\x20\x20\x20\x20\x20\x20\x20\u8fd8\u6709\uff0c\u4f60\u770b\x43\x6f\x6e\x73\x6f\x6c\x65\u6210\u4e60\u60ef\u4e86\uff0c\u836f\u522b\u505c\uff01","\x63\x6f\x6c\x6f\x72\x3a\x20\x23\x66\x39\x32\x36\x37\x32\x3b\x20\x66\x6f\x6e\x74\x2d\x73\x69\x7a\x65\x3a\x31\x36\x70\x78\x3b","\x63\x6f\x6c\x6f\x72\x3a\x20\x23\x31\x36\x39\x34\x63\x61\x3b\x20\x66\x6f\x6e\x74\x2d\x73\x69\x7a\x65\x3a\x31\x32\x70\x78\x3b"];if(typeof window[_$[0]]!==_$[1]&&typeof window[_$[0]][_$[2]]!==_$[1]){window[_$[0]][_$[2]](_$[4],_$[5],_$[6])}
         var _hmt = _hmt || [];
         (function() {
             var hm = document.createElement("script");
