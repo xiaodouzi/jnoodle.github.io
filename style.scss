@@ -1,9 +1,5 @@
--
--
--
--
--
--
+---
+---
 
 //
 // IMPORTS
@@ -65,7 +61,7 @@ h1.title {
 
 h2 {
   font-size: 22px;
-  > strong {
+  >strong{
     color: #008080;
   }
 }
@@ -81,7 +77,6 @@ h4 {
 p {
   margin: 10px 0 15px;
 }
-
 small {
   font-size: 12px;
 }
@@ -150,19 +145,20 @@ sub {
 // Image caption
 figcaption {
   text-align: center;
-  font-family: "freight-text-pro", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
   letter-spacing: .01rem;
   font-weight: 400;
   font-style: italic;
   font-size: 14px;
   line-height: 1.4;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0,0,0,0.6);
   outline: 0;
 }
 
 .hide {
   display: none;
 }
+
 
 // Beautiful Info/Tips Box
 
@@ -203,7 +199,6 @@ div.info {
     background: #fff2db
   }
 }
-
 div.warning {
   p:first-child:after {
     content: 'Warning'
@@ -214,7 +209,6 @@ div.warning {
     background: #fae2e2
   }
 }
-
 div.note {
   p:first-child:after {
     content: 'Note'
@@ -225,7 +219,6 @@ div.note {
     background: #e7f2fa
   }
 }
-
 div.permalink {
   margin-top: 30px;
   p:first-child:after {
@@ -237,7 +230,6 @@ div.permalink {
     background: #e7f2fa
   }
 }
-
 div.tip {
   p:first-child:after {
     content: 'Tip'
@@ -416,7 +408,6 @@ nav {
 
   .comments {
     margin-top: 10px;
-
     .tips {
       font-size: 14px;
       padding: 5px 10px;
@@ -435,7 +426,7 @@ nav {
     padding: 5px 10px;
     color: $gray;
     border-radius: 5px;
-    &:hover, &:active {
+    &:hover, &:active{
       color: $white;
       background: $gray;
     }
