@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: Feeldesign Studio
+name: hi, 小豆子
 
 # Short bio or description (displayed in the header)
-description: Front-End, UI, Design, Product... Weixin@feeldesignstudio
+description: 我是一个快乐的hr, 我的名字叫小豆子, 欢迎和我做朋友
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/head.jpeg
@@ -18,28 +18,28 @@ avatar: /images/head.jpeg
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: feeldesignstudio@gmail.com
+  email: 419479204@qq.com
   facebook:
   flickr:
-  github: jnoodle
+  github: xiaodouzi
   instagram:
   linkedin:
   pinterest:
   rss: true # just type anything here for a working RSS icon, make sure you set the "url" above!
-  twitter: geekcn
+  twitter:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-disqus: jnoodle
+disqus: xiaodz
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: http://www.feeldesignstudio.com
+url: http://xiaodouzi.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
