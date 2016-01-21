@@ -55,4 +55,4 @@ title: HR，你该如何“抢”人
 
 --
 
-（本文首次发表在 [智联招聘HR公会](https://mp.weixin.qq.com/s?__biz=MjM5OTU1MzY1Mg==&mid=402272995&idx=1&sn=73ad9fd1f6f43b6cffb4b1374e4655d0&scene=1&srcid=01052K42DnGZqXAnkEjXK8dQ&key=41ecb04b05111003c57efd3f8b7e9a5407e6d02be3d3e37198a7074bddacb8272e3ceb0ec83866c135778ef841ab98ee&ascene=0&uin=NDk4MDY4Njk1&devicetype=iMac+MacBookPro11%2C3+OSX+OSX+10.11.1+build(15B42)&version=11020201&pass_ticket=IjlxD2CXwIngE6khREUN1Nof%2BXBnPuK%2BI1xWt252wuyDGq7UtVs8%2BzY6RuoBRfqk) 微信公众号）
+（本文首次发表在 [智联招聘HR公会](http://mp.weixin.qq.com/s?__biz=MjM5OTU1MzY1Mg==&mid=402272995&idx=1&sn=73ad9fd1f6f43b6cffb4b1374e4655d0&scene=4#wechat_redirect) 微信公众号）
