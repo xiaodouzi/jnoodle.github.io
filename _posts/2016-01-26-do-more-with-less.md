@@ -61,4 +61,4 @@ title: 如何小钱做大事
 
 --
 
-（本文首次发表在 [智联招聘HR公会](http://mp.weixin.qq.com/s?__biz=MjM5OTU1MzY1Mg==&mid=402918695&idx=1&sn=7f03fabc915b98821d8fa37807f40910&scene=0#wechat_redirect) 微信公众号）
+（本文为原创文章，首次发表在 [智联招聘HR公会](http://mp.weixin.qq.com/s?__biz=MjM5OTU1MzY1Mg==&mid=402918695&idx=1&sn=7f03fabc915b98821d8fa37807f40910&scene=0#wechat_redirect) 微信公众号，[点击查看](http://mp.weixin.qq.com/s?__biz=MjM5OTU1MzY1Mg==&mid=402918695&idx=1&sn=7f03fabc915b98821d8fa37807f40910&scene=0#wechat_redirect)）

@@ -71,4 +71,4 @@ HR都希望调薪顺利，能让员工满意又能让老板高兴，其实怎么
 
 --
 
-（本文首次发表在 [智联招聘HR公会](http://mp.weixin.qq.com/s?__biz=MjM5OTU1MzY1Mg==&mid=402766211&idx=1&sn=08c0f2c2357b809ee01b1bb627e3d02a&scene=4#wechat_redirect) 微信公众号）
+（本文为原创文章，首次发表在 [智联招聘HR公会](http://mp.weixin.qq.com/s?__biz=MjM5OTU1MzY1Mg==&mid=402766211&idx=1&sn=08c0f2c2357b809ee01b1bb627e3d02a&scene=4#wechat_redirect) 微信公众号，[点击查看](http://mp.weixin.qq.com/s?__biz=MjM5OTU1MzY1Mg==&mid=402766211&idx=1&sn=08c0f2c2357b809ee01b1bb627e3d02a&scene=4#wechat_redirect)）

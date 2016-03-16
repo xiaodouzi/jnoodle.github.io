@@ -55,4 +55,4 @@ title: 春节放假，如何安排值班？
 
 --
 
-（本文首次发表在 [智联招聘HR公会](https://mp.weixin.qq.com/s?__biz=MjM5OTU1MzY1Mg==&mid=403064391&idx=1&sn=869e769a4c0005ce87011251731f64f8&scene=1) 微信公众号）
+（本文为原创文章，首次发表在 [智联招聘HR公会](https://mp.weixin.qq.com/s?__biz=MjM5OTU1MzY1Mg==&mid=403064391&idx=1&sn=869e769a4c0005ce87011251731f64f8&scene=1) 微信公众号，[点击查看](https://mp.weixin.qq.com/s?__biz=MjM5OTU1MzY1Mg==&mid=403064391&idx=1&sn=869e769a4c0005ce87011251731f64f8&scene=1)）
