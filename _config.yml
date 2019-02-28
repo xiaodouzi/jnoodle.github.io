@@ -6,7 +6,7 @@
 name: hi, 小豆子
 
 # Short bio or description (displayed in the header)
-description: 我是一个快乐的hr, 我的名字叫小豆子, 欢迎和我做朋友
+description: 我是一个快乐的 HR, 我的名字叫小豆子, 欢迎和我做朋友
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/head.jpeg
@@ -35,7 +35,7 @@ footer-links:
 disqus: xiaodouzi
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+google_analytics: UA-135363282-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
